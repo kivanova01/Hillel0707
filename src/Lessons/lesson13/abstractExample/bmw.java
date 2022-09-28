@@ -18,6 +18,11 @@ public class bmw extends Car {
 
     @Override
     void countWheels() {
+    }
 
+    public void aboutBmw() {
+        System.out.println("this is bmw");
+        System.out.println("Wheels count");
+        countWheels();
     }
 }
